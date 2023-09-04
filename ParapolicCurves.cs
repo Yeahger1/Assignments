@@ -12,7 +12,7 @@ public class ParabolicCurves : ProcessingLite.GP21
     void Start()
     {
         //Clear Background
-        Background(redColorValue, greenColorValue, blueColorValue);
+        Background(0);
     }
     int frame = 0;
 
