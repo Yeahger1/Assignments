@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MovementExampleAgain : MonoBehaviour
 {
+
+    //The circle will drown and die sometimes when gravity is on, i dont know why.
     Vector2 position;
     public Vector2 velocity = Vector2.zero;
     Vector2 acceleration;
